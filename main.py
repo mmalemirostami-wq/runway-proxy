@@ -6,7 +6,7 @@ import json
 
 app = FastAPI()
 
-RUNWAY_API_KEY = "YOUR_RUNWAY_API_KEY"
+RUNWAY_API_KEY = "key_afd895a9f225ed0f0a685879829322a33d8bb6df2ed2c41816cd6a44803cae145015d70eed4c79f4d2b3cad8c35d6c216a54ce3fbacf0bec77c69a1401bd4679"
 RUNWAY_TASK_URL = "https://api.runwayml.com/v1/text_to_video"  # Or whichever endpoint
 
 async def stream_task(task_id: str):
